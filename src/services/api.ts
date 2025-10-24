@@ -1,6 +1,7 @@
 // API服务 - 连接后端AutoGen智能体系统
 
-const API_BASE_URL = 'http://localhost:8000';
+// 支持从环境变量注入后端地址（Vercel/生产环境）
+const API_BASE_URL = (import.meta as any).env?.VITE_API_BASE_URL || 'http://localhost:8000';
 
 export interface ChatRequest {
   message: string;
