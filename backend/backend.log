@@ -1,0 +1,59 @@
+INFO:     Started server process [59460]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+🚀 启动 AI 视频剪辑智能体后端服务...
+📍 API 地址: http://localhost:8000
+📚 API 文档: http://localhost:8000/docs
+💡 健康检查: http://localhost:8000/health
+INFO:     127.0.0.1:51070 - "GET /health HTTP/1.1" 200 OK
+[DEBUG] 识别意图: general_question, 实体: {'drama_name': None, 'platforms': [], 'other': None}
+INFO:     127.0.0.1:51071 - "POST /api/chat HTTP/1.1" 200 OK
+[DEBUG] 识别意图: query_ranking, 实体: {'drama_name': None, 'platforms': [], 'other': '短剧排行榜'}
+INFO:     127.0.0.1:51171 - "POST /api/chat HTTP/1.1" 200 OK
+[DEBUG] 识别意图: select_drama, 实体: {'drama_name': '穿越成恶毒女配怎么办', 'platforms': [], 'other': ''}
+INFO:     127.0.0.1:51447 - "POST /api/chat HTTP/1.1" 200 OK
+[DEBUG] 识别意图: select_platform, 实体: {'drama_name': '穿越成恶毒女配怎么办', 'platforms': ['TikTok', 'Facebook', 'Instagram'], 'other': None}
+INFO:     127.0.0.1:51788 - "POST /api/chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55420 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55422 - "OPTIONS /api/chat HTTP/1.1" 200 OK
+[DEBUG] 识别意图: general_question, 实体: {'drama_name': None, 'platforms': [], 'other': None}
+INFO:     127.0.0.1:55420 - "POST /api/chat HTTP/1.1" 200 OK
+[DEBUG] 识别意图: general_question, 实体: {'drama_name': None, 'platforms': [], 'other': None}
+INFO:     127.0.0.1:56348 - "POST /api/chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56463 - "GET /health HTTP/1.1" 200 OK
+[DEBUG] 识别意图: general_question, 实体: {'drama_name': None, 'platforms': [], 'other': None}
+INFO:     127.0.0.1:56464 - "POST /api/chat HTTP/1.1" 200 OK
+[DEBUG] 识别意图: query_ranking, 实体: {'drama_name': None, 'platforms': [], 'other': None}
+INFO:     127.0.0.1:58315 - "POST /api/chat HTTP/1.1" 200 OK
+[DEBUG] 识别意图: query_ranking, 实体: {'drama_name': None, 'platforms': [], 'other': None}
+INFO:     127.0.0.1:58414 - "POST /api/chat HTTP/1.1" 200 OK
+[DEBUG] 识别意图: general_question, 实体: {'drama_name': None, 'platforms': [], 'other': '用户询问系统身份'}
+INFO:     127.0.0.1:58859 - "POST /api/chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58860 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58974 - "GET /health HTTP/1.1" 200 OK
+[DEBUG] 识别意图: general_question, 实体: {'drama_name': None, 'platforms': [], 'other': '用户在询问关于助手身份的问题'}
+INFO:     127.0.0.1:58975 - "POST /api/chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59094 - "GET /health HTTP/1.1" 200 OK
+[DEBUG] 识别意图: general_question, 实体: {'drama_name': None, 'platforms': [], 'other': '询问关于助手身份的问题'}
+INFO:     127.0.0.1:59096 - "POST /api/chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59447 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59448 - "OPTIONS /api/chat HTTP/1.1" 200 OK
+[DEBUG] 识别意图: query_ranking, 实体: {'drama_name': None, 'platforms': [], 'other': '短剧排行榜'}
+INFO:     127.0.0.1:59448 - "POST /api/chat HTTP/1.1" 200 OK
+[DEBUG] 识别意图: query_ranking, 实体: {'drama_name': None, 'platforms': [], 'other': None}
+INFO:     127.0.0.1:60821 - "POST /api/chat HTTP/1.1" 200 OK
+[DEBUG] 识别意图: query_ranking, 实体: {'drama_name': None, 'platforms': [], 'other': '短剧排行榜'}
+INFO:     127.0.0.1:60893 - "POST /api/chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61605 - "GET /health HTTP/1.1" 200 OK
+[DEBUG] 识别意图: query_ranking, 实体: {}
+INFO:     127.0.0.1:61606 - "POST /api/chat HTTP/1.1" 200 OK
+[DEBUG] 识别意图: query_ranking, 实体: {'drama_name': None, 'platforms': [], 'other': '日榜或排行榜查询'}
+INFO:     127.0.0.1:62765 - "POST /api/chat HTTP/1.1" 200 OK
+[DEBUG] 识别意图: select_drama, 实体: {'drama_name': '全能大佬她马甲掉了', 'platforms': [], 'other': ''}
+INFO:     127.0.0.1:63584 - "POST /api/chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51483 - "OPTIONS /api/chat HTTP/1.1" 200 OK
+[DEBUG] 识别意图: select_platform, 实体: {'platforms': ['Instagram', 'X (Twitter)'], 'other': None}
+INFO:     127.0.0.1:51483 - "POST /api/chat HTTP/1.1" 200 OK
+[DEBUG] 识别意图: confirm_script, 实体: {'drama_name': '全能大佬她马甲掉了', 'platforms': ['Instagram', 'X (Twitter)'], 'other': None}
+INFO:     127.0.0.1:51519 - "POST /api/chat HTTP/1.1" 200 OK
